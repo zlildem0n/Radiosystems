@@ -1,0 +1,88 @@
+{
+  "call_sign": "WQZI531",
+  "service": "PW",
+  "status": "Active",
+  "frn": "0007597198",
+  "licensee": "BRADFORD, COUNTY OF",
+  "grant_date": "2017-05-27",
+  "expiration": "2027-05-27",
+  "locations": [
+    {
+      "id": 1,
+      "type": "Fixed",
+      "address": "1 Guthrie Square, Sayre, PA",
+      "county": "Bradford",
+      "state": "PA",
+      "lat": 41.97981,
+      "lon": -76.52081,
+      "elevation_ft": 784,
+      "structure": "Building",
+      "height_ft": 70,
+      "haat_ft": -362,
+      "antenna": { "pol": null, "azimuth": null, "beamwidth": null, "gain_dbi": null }
+    },
+    {
+      "id": 2,
+      "type": "Fixed",
+      "address": "3364 Sugar Hill Road, Wilmont Twp, PA",
+      "county": "Bradford",
+      "state": "PA",
+      "lat": 41.62967,
+      "lon": -76.21733,
+      "elevation_ft": 1258,
+      "structure": "GTOWER",
+      "height_ft": 120,
+      "haat_ft": 185,
+      "antenna": { "pol": null, "azimuth": null, "beamwidth": null, "gain_dbi": null }
+    },
+    {
+      "id": 3,
+      "type": "Fixed",
+      "address": "Hilliker Road, Chemung, NY",
+      "county": "Chemung",
+      "state": "NY",
+      "lat": 42.04256,
+      "lon": -76.60792,
+      "elevation_ft": 1611,
+      "structure": "GTOWER",
+      "height_ft": 180,
+      "haat_ft": 551,
+      "antenna": { "pol": null, "azimuth": null, "beamwidth": null, "gain_dbi": null }
+    },
+    {
+      "id": 4,
+      "type": "Fixed",
+      "address": "Roundtop Park, Greens Landing, PA",
+      "county": "Bradford",
+      "state": "PA",
+      "lat": 41.95122,
+      "lon": -76.53008,
+      "elevation_ft": 1382,
+      "structure": "GTOWER",
+      "height_ft": 180,
+      "haat_ft": 335,
+      "antenna": { "pol": "V", "azimuth": 180.0, "beamwidth": 210.0, "gain_dbi": 5.5 }
+    }
+  ],
+  "mobile_areas": [
+    { "id": 5, "radius_km": 40, "center_loc": 1 },
+    { "id": 6, "radius_km": 40, "center_loc": 2 },
+    { "id": 7, "radius_km": 40, "center_loc": 3 },
+    { "id": 8, "radius_km": 40, "center_loc": 4 }
+  ],
+  "frequencies": [
+    { "freq_mhz": 155.1375, "loc": 1, "class": "FB2", "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 154.2200, "loc": 2, "class": "FB",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 154.3250, "loc": 3, "class": "FB",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 158.8350, "loc": 4, "class": "FB2", "power_w": 100, "erp_w": 40, "emission": "11K2F3E" },
+    { "freq_mhz": 158.8500, "loc": 5, "class": "MO",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 154.2200, "loc": 6, "class": "MO",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 154.3250, "loc": 7, "class": "MO",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" },
+    { "freq_mhz": 155.7750, "loc": 8, "class": "MO",  "power_w": 100, "erp_w": 50, "emission": "11K2F3E" }
+  ],
+  "buildout": {
+    "first_use": "2017-05-27",
+    "deadline": "2018-05-27",
+    "notification": "2018-04-23",
+    "discontinuance": null
+  }
